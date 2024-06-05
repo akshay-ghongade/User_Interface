@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+ .container
+{
+    width: 60%;
+    min-height: 100px;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+
+.container .logo
+{
+    width: 42%;
+    height: 60px;
+    background-color: black;
+    float: left;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid red;
+}
+
+.logo h1
+{
+    padding: 10px;
+    color: white;
+}
+
+.container .menu
+{
+    width:57%;
+    height: 60px;
+    background-color:black;
+    float: right;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding-top: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid red;
+}
+
+.menu a
+{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    background-color: red;
+    color: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.row
+{
+   width: 100%;
+   min-height: 100px;
+}
+
+ .col
+{
+    width: 20%;
+    min-height: 170px;
+    /* background-color: rgb(86, 90, 81); */
+    float: left;
+    margin-top: 10px;
+}
+.col img
+{
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /*border-color: darkgreen;*/
+    border: 1px solid red;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.col h5
+{
+    padding: 5px;
+}
+.col:nth-child(2)
+{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.col:nth-child(3)
+{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.row:nth-child(1)
+{
+    margin-left: 30px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-box 
+{
+    width: 100%;
+    min-height: 300px;
+    /* background-color: gray; */
+}
+.box
+{
+    width: 29%;
+    min-height: 300px;
+    float: left; 
+}
+.box img
+{
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border: 1px solid red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.box:nth-child(1)
+{
+    margin-left: 13px;
+}
+.footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border: 1px solid red;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.footer h4
+{
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}

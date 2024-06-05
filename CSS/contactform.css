@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiro+Devanagari+Marathi:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;  
+}
+.container
+{
+    width: 60%;
+    min-height: 300px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.main-header-div
+{
+    width: 100%;
+    height: 400px;
+    background-image: url(../Images/offbg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-header-div .logo
+{
+    width: 20%;
+    height: 60px;
+    float: left;
+}
+.logo img
+{
+    width: 30%;
+    height: 60px;
+    float: left;
+}
+.logo h1
+{
+    padding: 10px;
+}
+
+.main-header-div .menu
+{
+    width: 50%;
+    height: 60px;
+    float: left;
+    padding-top: 20px;
+}
+.menu a
+{   
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu a:hover
+{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.main-header-div .contact
+{
+    width: 28%;
+    height: 60px;
+    float: left;
+}
+.contact img
+{
+    width: 25%;
+    height: 60px;
+    float: left;
+    padding: 10px;
+}
+.contact h3
+{
+    padding: 10px;
+    padding-top: 21px;
+}
+.main-header-div-two
+{
+    width: 100%;
+    min-height: 300px;
+}
+.img
+{
+    width: 48%;
+    height: 400px;
+    float: left;
+}
+.img img
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.text
+{
+    width: 48%;
+    height: 400px;
+    float: right;
+}
+.text h2
+{
+    padding-top: 60px;
+}
+.text p
+{
+    padding-top: 15px;
+}
+.text-two
+{
+    width: 100%;
+    padding-top: 50px;   
+}
+.text-two img
+{
+    float: left;
+    padding: 10px;
+    margin-right: 30px;
+}
+.text-two h3
+{
+    padding: 15px;
+}
+.text-two pre
+{
+    margin-left: 80px;
+}
+.form-feild
+{
+    width: 100%;
+    height: 400px;
+}
+.form-feild p
+{
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 50px;
+    color:black;
+    padding: 3px;
+   
+}
+.back
+{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(243, 205, 210);
+    align-items: center;
+    margin-left: 310px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form-feild h1
+{
+    text-align: center;
+}
+.form
+{
+    width: 100%;
+    margin-left: 15%;
+}
+.form input
+{
+    padding: 10px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline: 0;
+    background-color: rgb(243, 205, 210);
+   
+}
+.form-div
+{
+    margin-top: 10px;
+}
+.form-div input
+{
+    width: 515px;
+    height: 90px;
+    outline: 0;
+    background-color: rgb(243, 205, 210);
+}
+.form-div button
+{
+    padding: 10px;
+    width: 150px;
+    margin-left: 190px;
+    margin-top: 10px;
+    background-color: orangered;
+    color: white;
+    outline: 0;
+}
+.bottom-div
+{
+    width: 100%;
+    min-height: 100px;
+}
+.email-head
+{
+    width: 90%;
+    height: 100px;  
+    padding-top: 20px;
+    background-color: black;
+    margin: auto;
+}
+.email-head i
+{
+    padding: 25px;
+    float: left;
+}
+.email-text
+{
+    color: white;
+}
+.email-text p
+{
+    padding: 10px;
+    margin-left: 20px; 
+    padding-top: 30px;
+}
+.email-text input
+{
+    width: 39%;
+    height: 30px;
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}

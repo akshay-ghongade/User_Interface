@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 60%;
+    height: 60px;
+    border: 1px solid #000;
+    margin: auto;
+    background-color: rgb(8, 10, 10);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box ol
+{
+    list-style: none;
+
+}
+.box a
+{
+    text-decoration: none;
+    float: left;
+    padding: 18px;
+    color: white;   
+}
+.box li :hover
+{
+    
+    background-color: rgb(9, 255, 0);
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+

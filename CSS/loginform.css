@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiro+Devanagari+Marathi:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.wrapper
+{
+    width: 60%;
+    min-height: 300px;
+    margin: 85px auto;
+    background-image: url(../Images/Screenshot\ \(22\).png);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.main-header-div
+{
+    width: 100%;
+    height: 60px;
+}
+.main-header-div .logo
+{
+    width: 25%;
+    height: 60px;
+    float: left;
+    padding: 10px;
+}
+.logo h2
+{
+    padding: 10px;
+    color: white;
+}
+.main-header-div .menu
+{
+    width: 45%;
+    height: 60px;
+    float: left;
+    padding-top: 20px;
+
+}
+.menu a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menu a:hover
+{
+    background-color: royalblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.main-header-div .search
+{
+    width: 25%;
+    height: 60px;
+    float: left;
+    padding-top: 20px;
+}
+.search input
+{
+    width: 100%;
+    padding: 4px;
+}
+button
+{
+    width: 130px;
+    height: 35px;
+    background-color: royalblue;
+    outline: 0;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.main-header-div-two
+{
+    width: 100%;
+    min-height: 400px;
+    margin-top: 10px;
+}
+.head-one
+{
+    width: 49%;
+    height: 400px;
+    float: left;
+    padding-top: 70px;
+}
+.head-text h4
+{
+   margin-left: 80px;
+   color: white;
+}
+.head-text p
+{
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    margin-left: 80px;
+}
+.head-text h5{
+    color: white;
+    margin-left: 70px;
+}
+.butt{
+    margin-left: 40px
+}
+button 
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.head-two
+{
+    width: 49%;
+    height: 400px;
+    float: right;
+}
+.head-text-two pre
+{
+    margin-right: 90px;
+    color: white;
+}
+
+.form-feild input{
+    margin: 5px;
+    padding: 5px;
+    padding-right: 170px;
+    
+}
+.name input{
+    margin: 5px;
+    padding: 5px;
+}
+.cbtn button{
+    width: 90%;
+    height: 40px;    
+}
+.form-feild p{
+    margin: 15px;
+    color: white;
+}
+.form-feild a
+{
+    text-decoration: none;
+}
+
+.head-two .form-feild
+{
+    margin-left: 50px;
+}
+/* body
+{
+    background-image: linear-gradient(to right,#000000,#434343);
+} */
+
