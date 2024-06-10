@@ -9,15 +9,14 @@
 }
 .container
 {
-    width: 60%;
+    width: 100%;
     min-height: 300px;
     margin: auto;
-    border: 1px solid #000;
 }
 .main-header-div
 {
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-image: url(../Images/offbg2.jpg);
     background-size: cover;
     background-position: center;
@@ -41,10 +40,9 @@
 
 .main-header-div .menu
 {
-    width: 50%;
+    width: 60%;
     height: 60px;
     float: left;
-    padding-top: 20px;
 }
 .menu a
 {   
@@ -52,6 +50,13 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin-top: 20px;
+    margin: 25px;
+}
+ul
+{
+    margin-top: 20px;
+    margin-left: 50px;
 }
 .menu a:hover
 {
@@ -65,21 +70,15 @@
 }
 .main-header-div .contact
 {
-    width: 28%;
+    width: 18%;
     height: 60px;
     float: left;
-}
-.contact img
-{
-    width: 25%;
-    height: 60px;
-    float: left;
-    padding: 10px;
 }
 .contact h3
 {
     padding: 10px;
     padding-top: 21px;
+    float: right;
 }
 .main-header-div-two
 {
@@ -89,20 +88,21 @@
 .img
 {
     width: 48%;
-    height: 400px;
+    height: 450px;
     float: left;
 }
-.img img
+.img iframe
 {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 .text
 {
     width: 48%;
     height: 400px;
     float: right;
+    margin-top: 40px; 
 }
 .text h2
 {
@@ -115,7 +115,8 @@
 .text-two
 {
     width: 100%;
-    padding-top: 50px;   
+    padding-top: 50px;  
+    margin-top: 30px; 
 }
 .text-two img
 {
@@ -130,6 +131,8 @@
 .text-two pre
 {
     margin-left: 80px;
+    color: red;
+    font-weight: bold;
 }
 .form-feild
 {
@@ -150,9 +153,8 @@
 {
     width: 150px;
     height: 40px;
-    background-color: rgb(243, 205, 210);
+    background-color: #FEDBDF;
     align-items: center;
-    margin-left: 310px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -166,7 +168,7 @@
 .form
 {
     width: 100%;
-    margin-left: 15%;
+    min-height: 400px;
 }
 .form input
 {
@@ -175,8 +177,23 @@
     margin-left: 10px;
     margin-top: 10px;
     outline: 0;
-    background-color: rgb(243, 205, 210);
+    background-color: lightgrey;
    
+}
+#msg
+{
+    width: 38%;
+    height: 80px;
+    background-color: #FEDBDF;
+}
+.single
+{
+    /* background-color: rgb(72, 72, 75); */
+    width: 100%;
+    height: 450px;
+   background-image: url(../Images/flowerbg.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 .form-div
 {
@@ -187,7 +204,19 @@
     width: 515px;
     height: 90px;
     outline: 0;
-    background-color: rgb(243, 205, 210);
+}
+#uname
+{
+    height: 45px;
+    background-color: #FEDBDF;
+}
+
+input[type=button]
+{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    height: 45px;
 }
 .form-div button
 {
@@ -199,43 +228,209 @@
     color: white;
     outline: 0;
 }
-.bottom-div
+.main-bottom-div
 {
     width: 100%;
     min-height: 100px;
 }
-.email-head
+.main-bottom-div .email-head-div
 {
     width: 90%;
-    height: 100px;  
-    padding-top: 20px;
-    background-color: black;
+    height: 100px;
     margin: auto;
+    display: flex;
+    background-color: black;
 }
-.email-head i
+.email-head-div img
 {
-    padding: 25px;
-    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
 }
-.email-text
+.email-head-div p
+{
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.email-head-div input
+{
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;  
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.emlhd
+{
+
+    height: 75px;
+    border-bottom: 1px solid white;
+    margin-left: 30%;
+}
+input:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.footer-div
+{
+    width: 90%;
+    min-height: 300px;
+    display: flex;
+    margin-top: 50px;
+    border: 2px solid red;
+    margin: auto;
+    /* margin-left: 60px; */
+}
+.footer-div p
+{
+    margin-top: 10px;
+    color: white;
+}
+.comp-div
+{
+    width: 28%;
+    height: 300;
+    border: 1.5px solid blueviolet;
+}
+.comp-div .comp-icon
+{
+    margin-top: 20px;
+}
+.comp-div .comp-logo
+{
+    display: flex;
+}
+.comp-logo h2
+{
+    margin-top: 10px;
+    color: white;
+}
+.comp-div .comp-icon h5
 {
     color: white;
 }
-.email-text p
+.explore-div
+{
+    width: 15%;
+    height: 300;
+    border: 1.5px solid blueviolet;
+}
+.explore-div h2
+{
+    margin-top: 10px;
+    color: white;
+    /* margin-left: 20px; */
+    padding-left: 10px;
+}
+.explore-div p
+{
+    line-height: 36px;
+}
+.portfolio-div
+{
+    width: 25%;
+    height: 300;
+    border: 1.5px solid blueviolet;
+}
+.portfolio-div h2
+{
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+}
+.row
+{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+.row .col
+{
+    width: 23%;
+    height: 74px;
+    margin-top: 20px;
+}
+.col img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cont-div
+{
+    width: 25%;
+    height: 300;
+    border: 1.5px solid blueviolet;
+}
+.cont-div .hed h2
+{
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+}
+.cont-div .hed p
+{
+    margin-top: 10px;
+    color: white;
+}
+.cont-div .em
+{
+    display: flex;
+    font-size: small;
+    margin-top: 30px;
+}
+.em i
+{
+    margin-top: 10px;
+}
+.cnt
+{
+    display: flex;
+    padding: 10px;
+}
+.cnt h3
+{
+    color: white;
+}
+.footer-div :nth-child(2)
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-div :nth-child(3)
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-div :nth-child(1)
+{
+    margin-left: 0px;
+}
+.footer-div h5
 {
     padding: 10px;
-    margin-left: 20px; 
-    padding-top: 30px;
+    font-size: small;
+    margin-right: 6000px;
 }
-.email-text input
+.footer
 {
-    width: 39%;
-    height: 30px;
-    padding: 10px;
-    float: right;
-    margin-right: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
 }
-
+.footer h6
+{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
 .clearfix::after
 {
     content: "";
